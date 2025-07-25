@@ -6,4 +6,5 @@ def H(Set, n):
         a, b, c = combinations[i]
         if (a + b + c) % n == 0:
             return False, [a, b, c], combinations
+    print(len(Set))
     return True, combinations
